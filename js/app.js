@@ -77,7 +77,7 @@ const gameOverLoader = () => {
 
   if (oldHighScore < playerScore) {
     localStorage.setItem("highScore", playerScore);
-    highScore.innerHTML = `High Score : ${playerPosition}`;
+    highScore.innerHTML = `High Score : ${playerScore}`;
   }
 
   gameOverBtn.innerText = "Play Again";
